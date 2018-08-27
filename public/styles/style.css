@@ -1,0 +1,67 @@
+#map {
+  height: 78vh;
+}
+
+h3{
+  margin: 0.5em 0;
+}
+
+div a img{
+  padding-top:1em;
+}
+
+h2{
+  text-align: center;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato",sans-serif;
+}
+
+.navButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:#b1bbf3;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+form input{
+  margin: 1em 0;
+  border:solid 1px orange;
+}
+
+textarea{
+  border:solid 1px orange;
+}
+
+#faq-container{
+  background-color:#dde1e6;
+  padding: 3em;
+}
+
+ul{
+  padding-left:0;
+}
+
+ul li{
+  list-style: none;
+  background-color: white;
+  border-radius: 10px;
+  margin: 1em;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.Search-bar{
+  background-color:blue;
+  
+}

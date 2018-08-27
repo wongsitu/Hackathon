@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geolocation</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+    <script src= "/scripts/app.js" defer></script>
+  </head>
+  <body>
+      <h2>This is a disaster</h2>
+    <div id="map"></div>
+
+    <nav> <!--nav bar-->
+      <div class="navButtons">
+          <a href="" class="homeButton"><img src="/images/baseline_home_black_18dp.png"><h3>Home</h3></a>
+          <a href="#FAQ" class="faqButton"><img src="/images/baseline_help_black_18dp.png"><h3>FAQ</h3></a>
+          <a href="" class="panicButton"><img src="/images/baseline_warning_black_18dp.png"><h3>PANIC</h3></a>
+      </div>
+    </nav>
+    <section class="Search-bar">
+        <input type="Search">
+    </section>
+    <section id="FAQ">
+        <div id="faq-container">
+            <!-- <h3>Happening Now: Earthquake</h3>
+            <h3>FAQs</h3> -->
+            <ul>
+                <li>Stay inside if already inside</li>
+                <li>get under a table</li> 
+                <li>stay under a door frame </li>
+                <li>don't move until aftershocks have passed </li>
+            </ul>
+        </div>
+    </section>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHLett8djBo62dDXj0EjCimF8Rd6E8cxg">
+    </script>
+  </body>
+</html>
